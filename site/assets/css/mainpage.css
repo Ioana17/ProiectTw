@@ -1,0 +1,118 @@
+body {
+	background-attachment: scroll;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	background-size:cover;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+#header {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #5c6379;
+}
+
+
+h2 {
+	color: #acd1b2;
+	padding: 25px;
+}
+
+#navbar {
+	left: 50%;
+	float: right;
+	margin-bottom: -20px;
+	margin-top: 7px;
+	margin-right: 10px;
+	
+}
+
+#header {
+	position: relative;
+	top: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #5c6379;
+	margin-bottom: 30px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	
+	
+	
+}
+
+#section{
+	height: 550px;
+	width: 1000px;
+	border: 1px solid #ccc;
+	float: left;
+	background-attachment: fixed;
+	background-image: url(../images/block.png);
+	background-repeat: repeat;
+	font-family: Georgia, Garamond, Serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFF;
+	border-radius: 20px;
+		overflow:auto;
+}
+
+#search{
+	height: 550px;
+	width: 250px;
+	border: 1px solid #ccc;
+	float: right;
+	color: #fff; /* text color */
+	font-family: "Gill Sans MT Ext Condensed Bold", sans-serif;
+	font-size: 20px;
+	background-image: url(../images/block.png);
+	background-repeat: repeat;
+	border-radius: 20px;
+
+}
+
+#search form {
+	padding-left: 35px;
+
+}
+#search form button {
+	font-family: "Gill Sans MT Ext Condensed Bold";
+	font-size: 17pt;
+	color: #5c6379;
+	width:140px;
+	height: 35px;
+	margin-top: 5px;
+}
+#header #navbar button {
+	height: 40px;
+	width: 140px;
+	background-color: #0dff94;
+	font-family: "Gill Sans MT Ext Condensed Bold";
+	font-size: 23pt;
+	color: #5c6379;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin-bottom: -50px;
+	
+}
+
+#section ul {
+	overflow-y :scroll;
+	height: 550px;
+	width: 1000px;
+}
+
+body table {
+	position: relative;
+}
